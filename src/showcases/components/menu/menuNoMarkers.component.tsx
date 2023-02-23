@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, MenuItem, Text } from '@ui-kitten/components';
+import { Menu, MenuItem, Text } from '@ui-kitten-s/components';
 
 export const MenuNoMarkersShowcase = (): React.ReactElement => {
 

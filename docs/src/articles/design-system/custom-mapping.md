@@ -37,7 +37,7 @@ Create a component:
 ```js
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { styled } from '@ui-kitten/components';
+import { styled } from '@ui-kitten-s/components';
 
 @styled('CircleButton')
 export class CircleButton extends React.Component {
@@ -82,7 +82,7 @@ And pass it to an `ApplicationProvider` component:
 ```js
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout } from '@ui-kitten/components';
+import { ApplicationProvider, Layout } from '@ui-kitten-s/components';
 import { default as mapping } from './path-to/mapping.json'; // <-- Import mapping
 import { CircleButton } from './path-to/CircleButton'; // <-- Import component
 
@@ -100,7 +100,7 @@ export default () => (
 
 <div class="note note-info">
   <div class="note-body">
-   Custom Mapping is applied automatically in case of using `@ui-kitten/metro-config` package,
+   Custom Mapping is applied automatically in case of using `@ui-kitten-s/metro-config` package,
    meaning there is no need to modify ApplicationProvider.
    To check this, see if it used in metro.config.js. [Relative guide](guides/improving-performance).
   </div>
@@ -202,7 +202,7 @@ What we did is that we added a rounded [variant](design-system/design-system-glo
 ```js
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout } from '@ui-kitten/components';
+import { ApplicationProvider, Layout } from '@ui-kitten-s/components';
 import { default as mapping } from './path-to/mapping.json';
 import { CircleButton } from './path-to/CircleButton';
 
@@ -265,7 +265,7 @@ And dispatch this state from a component.
 ```js
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import { styled, Interaction } from '@ui-kitten/components';
+import { styled, Interaction } from '@ui-kitten-s/components';
 
 @styled('CircleButton')
 export class CircleButton extends React.Component {

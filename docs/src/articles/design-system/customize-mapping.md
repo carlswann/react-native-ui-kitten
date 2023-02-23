@@ -145,7 +145,7 @@ The only thing we have to do is to pass our mapping to an `ApplicationProvider` 
 ```js
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider } from '@ui-kitten/components';
+import { ApplicationProvider } from '@ui-kitten-s/components';
 import { default as mapping } from './path-to/mapping.json'; // <-- import mapping
 
 export default () => (
@@ -159,7 +159,7 @@ export default () => (
 
 <div class="note note-info">
   <div class="note-body">
-   Custom Mapping is applied automatically in case of using `@ui-kitten/metro-config` package,
+   Custom Mapping is applied automatically in case of using `@ui-kitten-s/metro-config` package,
    meaning there is no need to modify ApplicationProvider.
    To check this, see if it used in metro.config.js. [Relative guide](guides/improving-performance).
   </div>

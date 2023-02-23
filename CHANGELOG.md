@@ -147,7 +147,7 @@
 
 Improving performance with build-time Eva processing [#517](https://github.com/akveo/react-native-ui-kitten/issues/517#issuecomment-590213844)
 
-* Add @ui-kitten/metro-config package [#613](https://github.com/akveo/react-native-ui-kitten/issues/613) [#855](https://github.com/akveo/react-native-ui-kitten/issues/855) [12230c6](https://github.com/akveo/react-native-ui-kitten/commit/12230c6))
+* Add @ui-kitten-s/metro-config package [#613](https://github.com/akveo/react-native-ui-kitten/issues/613) [#855](https://github.com/akveo/react-native-ui-kitten/issues/855) [12230c6](https://github.com/akveo/react-native-ui-kitten/commit/12230c6))
 
 
 ## 4.4.0 (2020-02-10)
@@ -258,7 +258,7 @@ Bring consistency in component styling with Eva 1.3 unified design [#517](https:
 ### :bomb: BREAKING CHANGES
 
 * `react-native-svg` package is now required and included in peer dependencies
-* deprecate `react-native-ui-kitten` package in order to `@ui-kitten/components`. An old package will be supported till v5
+* deprecate `react-native-ui-kitten` package in order to `@ui-kitten-s/components`. An old package will be supported till v5
 
 ## 4.3.0-beta.1 (2019-10-17)
 

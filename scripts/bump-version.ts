@@ -56,7 +56,7 @@ function createPathToPackageJson(packageName: string): string {
 }
 
 function isFrameworkPackage(packageName: string): boolean {
-  return packageName.startsWith('@ui-kitten');
+  return packageName.startsWith('@ui-kitten-s');
 }
 
 function bumpVersionAndFrameworkDependencies(packagePath: string): void {

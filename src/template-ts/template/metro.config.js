@@ -5,7 +5,7 @@
  * @format
  */
 
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-s/metro-config');
 
 /**
  * @see https://akveo.github.io/react-native-ui-kitten/docs/guides/improving-performance

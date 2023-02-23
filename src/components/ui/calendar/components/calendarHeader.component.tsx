@@ -35,7 +35,7 @@ import {
 import {
   CalendarViewModeId,
   CalendarViewModes,
-} from '@ui-kitten/components/ui/calendar/type';
+} from '@ui-kitten-s/components/ui/calendar/type';
 
 interface IconStyle extends ImageStyle {
   tintColor?: string;
@@ -101,11 +101,13 @@ export class CalendarHeader extends React.Component<CalendarHeaderProps> {
           appearance='ghost'
           accessoryRight={this.renderLeftIcon}
           onPress={this.props.onNavigationLeftPress}
+          testID={this.props.testID ? `${this.props.testID}/nav-button-left` : undefined}
         />
         <Button
           appearance='ghost'
           accessoryRight={this.renderRightIcon}
           onPress={this.props.onNavigationRightPress}
+          testID={this.props.testID ? `${this.props.testID}/nav-button-right` : undefined}
         />
       </View>
     );

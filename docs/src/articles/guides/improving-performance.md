@@ -8,17 +8,17 @@ By default, UI Kitten is configured with processing Eva mapping packages during 
 
 The following steps are only possible with installing UI Kitten package, which manages these issues:
 ```bash
-npm i -D @ui-kitten/metro-config
+npm i -D @ui-kitten-s/metro-config
 
 // Using Yarn?
-yarn add -D @ui-kitten/metro-config
+yarn add -D @ui-kitten-s/metro-config
 ```
 
 The props passed to ApplicationProvider should also be modified:
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider } from '@ui-kitten/components';
+import { ApplicationProvider } from '@ui-kitten-s/components';
 
 export default () => (
   <ApplicationProvider {...eva} theme={eva.light}>
@@ -42,7 +42,7 @@ This means, the application will start with ready-to-go stylings.
 Create **metro.config.js** at the root of your project if you don't have this file yet and place the following code:
 
 ```js
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-s/metro-config');
 
 const evaConfig = {
   evaPackage: '@eva-design/eva',
@@ -60,7 +60,7 @@ or you have created another mapping.json during the previous steps,
 it's also required to specify a path to custom mapping.json.
 
 ```js
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-s/metro-config');
 
 const evaConfig = {
   evaPackage: '@eva-design/eva',
@@ -88,7 +88,7 @@ Despite that configuring Metro Bundler may cover most of the use cases,
 we also provide a command line interface to do the same job, but manually.
 Running within the CI environment is one of the cases when it should be done before the application is built.
 
-Assuming `@ui-kitten/metro-config` package [is installed](guides/improving-performance#requirements),
+Assuming `@ui-kitten-s/metro-config` package [is installed](guides/improving-performance#requirements),
 we may run the following commanad:
 ```bash
 ui-kitten bootstrap @eva-design/eva
@@ -116,7 +116,7 @@ The second argument of `create` function is a standard configuration of Metro Bu
 
 ## Using with 3rd party Metro configurations
 
-Some libraries may require having specific Metro Bundler configuration, assuming you should merge it with the one provided by UI Kitten. To simplify this process, we made `@ui-kitten/metro-config` package resolve this issue out of the box, meaning you **should not** merge two configurations yourself.
+Some libraries may require having specific Metro Bundler configuration, assuming you should merge it with the one provided by UI Kitten. To simplify this process, we made `@ui-kitten-s/metro-config` package resolve this issue out of the box, meaning you **should not** merge two configurations yourself.
 
 For example, let's have a look on how it can be used with `react-native-svg-transformer` library:
 
@@ -137,7 +137,7 @@ The required configuration is:
 Meaning you can simply put it down into `create` function.
 
 ```js
-const MetroConfig = require('@ui-kitten/metro-config');
+const MetroConfig = require('@ui-kitten-s/metro-config');
 const defaultConfig = require('metro-config/src/defaults').getDefaultValues();
 
 const evaConfig = {

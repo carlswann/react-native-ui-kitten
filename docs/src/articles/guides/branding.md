@@ -47,7 +47,7 @@ In order to build dark theme, use `eva.dark` or `eva.light` otherwise. Our choic
 ```js
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout, Button } from '@ui-kitten/components';
+import { ApplicationProvider, Layout, Button } from '@ui-kitten-s/components';
 import { default as theme } from './theme.json'; // <-- Import app theme
 
 export default () => (
@@ -164,7 +164,7 @@ Then go to the `App.js` and add `customMapping` property:
 ```js
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout, Button } from '@ui-kitten/components';
+import { ApplicationProvider, Layout, Button } from '@ui-kitten-s/components';
 import { default as theme } from './theme.json'; // <-- Import app theme
 import { default as mapping } from './mapping.json'; // <-- Import app mapping
 

@@ -486,6 +486,7 @@ export abstract class BaseCalendarComponent<P, D = Date> extends React.Component
         onTitlePress={this.onPickerNavigationPress}
         onNavigationLeftPress={this.onHeaderNavigationLeftPress}
         onNavigationRightPress={this.onHeaderNavigationRightPress}
+        testID={this.props.testID ? `@${this.props.testID}/header`: undefined}
       />
     );
   };

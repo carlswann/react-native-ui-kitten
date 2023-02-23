@@ -7,7 +7,7 @@
 import {
   NativeDateService,
   NativeDateServiceOptions,
-} from '@ui-kitten/components';
+} from '@ui-kitten-s/components';
 import dateFnsParse from 'date-fns/parse';
 import dateFnsFormat from 'date-fns/format';
 

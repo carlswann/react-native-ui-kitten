@@ -1,6 +1,6 @@
 {
-  "name": "ui-kitten",
-  "version": "5.1.2",
+  "name": "ui-kitten-s",
+  "version": "5.1.4",
   "private": true,
   "license": "MIT",
   "author": "akveo <contact@akveo.com>",
@@ -24,7 +24,7 @@
     "parse-docs": "gulp parse-docs",
     "bump-version": "gulp bump-version && conventional-changelog -i CHANGELOG.md -s",
     "publish-docs": "npm run parse-docs && gulp publish-docs",
-    "publish-packages": "gulp publish-packages"
+    "publish-packages": "yarn version --patch --no-git-tag-version --no-commit-hooks && gulp bump-version && gulp publish-packages"
   },
   "dependencies": {
     "react": "18.1.0",

@@ -60,8 +60,8 @@ export type DatepickerElement<D = Date> = React.ReactElement<DatepickerProps<D>>
  * @property {DateService<D>} dateService - Date service that is able to work with a date objects.
  * Defaults to Native Date service that works with JS Date.
  * Allows using different types of date like Moment.js or date-fns.
- * Moment.js service can be provided by installing `@ui-kitten/moment` package.
- * date-fns service can be provided by installing `@ui-kitten/date-fns` package.
+ * Moment.js service can be provided by installing `@ui-kitten-s/moment` package.
+ * date-fns service can be provided by installing `@ui-kitten-s/date-fns` package.
  *
  * @property {boolean} boundingMonth - Defines if previous and next months should be rendered in the current month view.
  *
@@ -156,7 +156,7 @@ export type DatepickerElement<D = Date> = React.ReactElement<DatepickerProps<D>>
  *
  * @overview-example DatepickerMoment
  * Datepicker is able to work with Moment, by configuring date service.
- * In order to use Moment, `@ui-kitten/moment` package is required.
+ * In order to use Moment, `@ui-kitten-s/moment` package is required.
  *
  * @overview-example DatepickerCustomDay
  * To render custom cells, `renderDay`, `renderMonth` and `renderYear` properties may be used.
@@ -164,7 +164,7 @@ export type DatepickerElement<D = Date> = React.ReactElement<DatepickerProps<D>>
  * @overview-example DatepickerStyling
  * Datepicker and it's inner views can be styled by passing them as function components.
  * ```
- * import { Datepicker, Text } '@ui-kitten/components';
+ * import { Datepicker, Text } '@ui-kitten-s/components';
  *
  * <Datepicker
  *   controlStyle={{ ... }}
@@ -205,6 +205,7 @@ export class Datepicker<D = Date> extends BaseDatepickerComponent<DatepickerProp
       renderMonth: this.props.renderMonth,
       renderYear: this.props.renderYear,
       renderFooter: this.props.renderFooter,
+      testID: this.props.testID
     };
   }
 

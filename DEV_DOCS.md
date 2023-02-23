@@ -30,12 +30,12 @@
 
 - docs - Documentation and framework website built on top on the framework
 - src
-    - components - `@ui-kitten/components` package. UI components itself.     
-    - eva-icons - `@ui-kitten/eva-icons` package. Eva Icons for React Native     
-    - date-fns - `@ui-kitten/moment` package. Services that allows UI Kitten components to work with date-fns.
-    - moment - `@ui-kitten/moment` package. Services that allows UI Kitten components to work with moment.js.    
-    - template-js - `@ui-kitten/template-js` package. Template app for creating UI Kitten project with React Native CLI.    
-    - template-ts - `@ui-kitten/template-ts` package. Template app for creating TypeScript UI Kitten project with React Native CLI.     
+    - components - `@ui-kitten-s/components` package. UI components itself.     
+    - eva-icons - `@ui-kitten-s/eva-icons` package. Eva Icons for React Native     
+    - date-fns - `@ui-kitten-s/moment` package. Services that allows UI Kitten components to work with date-fns.
+    - moment - `@ui-kitten-s/moment` package. Services that allows UI Kitten components to work with moment.js.    
+    - template-js - `@ui-kitten-s/template-js` package. Template app for creating UI Kitten project with React Native CLI.    
+    - template-ts - `@ui-kitten-s/template-ts` package. Template app for creating TypeScript UI Kitten project with React Native CLI.     
     - [Demo Application](https://github.com/akveo/kittenTricks) - independent application with runnable examples for each feature
       
 ### UI Kit 

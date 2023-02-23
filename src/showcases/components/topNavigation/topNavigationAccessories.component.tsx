@@ -7,9 +7,9 @@ import {
   OverflowMenu,
   TopNavigation,
   TopNavigationAction,
-} from '@ui-kitten/components';
+} from '@ui-kitten-s/components';
 import { StyleSheet } from 'react-native';
-import { TouchableWebElement } from '@ui-kitten/components/devsupport';
+import { TouchableWebElement } from '@ui-kitten-s/components/devsupport';
 
 const BackIcon = (props): IconElement => (
   <Icon

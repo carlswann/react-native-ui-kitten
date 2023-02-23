@@ -18,10 +18,10 @@ If you're not interested in using Eva Icons, learn how to integrate [3rd party I
 Let's start with installing Eva Icons and it's required dependencies.
 
 ```bash
-npm i @ui-kitten/eva-icons react-native-svg
+npm i @ui-kitten-s/eva-icons react-native-svg
 
 // Using Yarn?
-// yarn add @ui-kitten/eva-icons react-native-svg
+// yarn add @ui-kitten-s/eva-icons react-native-svg
 ```
 
 <div class="note note-warning">
@@ -51,8 +51,8 @@ Open `App.js` and paste the code below.
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten/components';
-import { EvaIconsPack } from '@ui-kitten/eva-icons';
+import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten-s/components';
+import { EvaIconsPack } from '@ui-kitten-s/eva-icons';
 
 const HomeScreen = () => (
   <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
@@ -76,7 +76,7 @@ That's it. Let's see how it can be used in the project.
 
 ```jsx
 import React from 'react';
-import { Button, Icon } from '@ui-kitten/components';
+import { Button, Icon } from '@ui-kitten-s/components';
 
 const FacebookIcon = (props) => (
   <Icon name='facebook' {...props} />
@@ -147,7 +147,7 @@ Open `App.js` and paste the code below.
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten/components';
+import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten-s/components';
 import { FeatherIconsPack } from './feather-icons';
 
 const HomeScreen = () => (
@@ -172,7 +172,7 @@ That's it. Let's see how it can be used in the project.
 
 ```jsx
 import React from 'react';
-import { Button, Icon } from '@ui-kitten/components';
+import { Button, Icon } from '@ui-kitten-s/components';
 
 export const FacebookIcon = (props) => (
   <Icon name='facebook' {...props} />
@@ -232,7 +232,7 @@ By passing an array of icon packs, we can register it in the application:
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten/components';
+import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten-s/components';
 import { FeatherIconsPack } from './feather-icons'; // <-- Import Feather icons
 import { MaterialIconsPack } from './material-icons'; // <-- Import Material icons
 
@@ -258,7 +258,7 @@ When using multiple icon packages, you're able to choose an icon library with si
 
 ```jsx
 import React from 'react';
-import { Button, Icon } from '@ui-kitten/components';
+import { Button, Icon } from '@ui-kitten-s/components';
 
 export const HomeIcon = (props) => (
   <Icon {...props} name='home' pack='material' />
@@ -314,8 +314,8 @@ By passing an array of icon packs, we can register it in the application:
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten/components';
-import { EvaIconsPack } from '@ui-kitten/eva-icons';
+import { ApplicationProvider, IconRegistry, Layout, Text } from '@ui-kitten-s/components';
+import { EvaIconsPack } from '@ui-kitten-s/eva-icons';
 import { AssetIconsPack } from './asset-icons'; // <-- Import Feather icons
 
 const HomeScreen = () => (
@@ -340,7 +340,7 @@ When using multiple icon packages, you're able to choose an icon library with si
 
 ```jsx
 import React from 'react';
-import { Button, Icon } from '@ui-kitten/components';
+import { Button, Icon } from '@ui-kitten-s/components';
 
 export const GithubIcon = (props) => (
   <Icon {...props} name='github' pack='assets' />

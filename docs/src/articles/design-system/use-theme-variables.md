@@ -11,7 +11,7 @@ Let's declare a `View` and set it `backgroundColor` to any color of current them
 ```js
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles } from '@ui-kitten/components';
+import { withStyles } from '@ui-kitten-s/components';
 
 const AwesomeView = (props) => {
   const { eva, style, ...restProps } = props;
@@ -35,7 +35,7 @@ You can also use hooks `useTheme` and `useStyleSheet` in order to get styles & c
 ```js
 import React from 'react';
 import { View } from 'react-native';
-import { useTheme, useStyleSheet, StyleService } from '@ui-kitten/components';
+import { useTheme, useStyleSheet, StyleService } from '@ui-kitten-s/components';
 
 export const ThemedAwesomeView = () => {
   const theme = useTheme();

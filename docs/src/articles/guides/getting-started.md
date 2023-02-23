@@ -16,10 +16,10 @@ npm un -g react-native-cli && npm i -g @react-native-community/cli
 ### Create a New Project
 
 ```bash
-npx react-native init MyApp --template @ui-kitten/template-js
+npx react-native init MyApp --template @ui-kitten-s/template-js
 
 // Wish Typescript?
-// npx react-native init MyApp --template @ui-kitten/template-ts
+// npx react-native init MyApp --template @ui-kitten-s/template-ts
 ```
 
 ### Start your App
@@ -46,10 +46,10 @@ If you have an existing code base and want to use UI Kitten in your project, fol
 ### Install UI Kitten
 
 ```bash
-npm i @ui-kitten/components @eva-design/eva react-native-svg
+npm i @ui-kitten-s/components @eva-design/eva react-native-svg
 
 // Using Yarn?
-// yarn add @ui-kitten/components @eva-design/eva react-native-svg
+// yarn add @ui-kitten-s/components @eva-design/eva react-native-svg
 ```
 
 <div class="note note-warning">
@@ -58,7 +58,7 @@ npm i @ui-kitten/components @eva-design/eva react-native-svg
 
 <div class="note note-warning">
   <div class="note-body">
-    If you use Expo for Web, you need to add the following underneath the `"web"` key in `app.json` `"build": { "babel": { "include": [ "@ui-kitten/components" ] } }`
+    If you use Expo for Web, you need to add the following underneath the `"web"` key in `app.json` `"build": { "babel": { "include": [ "@ui-kitten-s/components" ] } }`
   </div>
 </div>
 
@@ -78,7 +78,7 @@ Wrap the root component of your App into `ApplicationProvider` component. In you
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, Layout, Text } from '@ui-kitten/components';
+import { ApplicationProvider, Layout, Text } from '@ui-kitten-s/components';
 
 const HomeScreen = () => (
   <Layout style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>

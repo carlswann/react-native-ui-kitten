@@ -23,7 +23,7 @@ Create a `home.component.js` file and paste the code below.
 ```jsx
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { Button, Divider, Layout, TopNavigation } from '@ui-kitten/components';
+import { Button, Divider, Layout, TopNavigation } from '@ui-kitten-s/components';
 
 export const HomeScreen = ({ navigation }) => {
 
@@ -58,7 +58,7 @@ Create a `details.component.js` file and paste the code below.
 ```jsx
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from '@ui-kitten/components';
+import { Divider, Icon, Layout, Text, TopNavigation, TopNavigationAction } from '@ui-kitten-s/components';
 
 const BackIcon = (props) => (
   <Icon {...props} name='arrow-back' />
@@ -137,8 +137,8 @@ Go back to the `App.js` and paste the following code.
 ```jsx
 import React from 'react';
 import * as eva from '@eva-design/eva';
-import { ApplicationProvider, IconRegistry } from '@ui-kitten/components';
-import { EvaIconsPack } from '@ui-kitten/eva-icons';
+import { ApplicationProvider, IconRegistry } from '@ui-kitten-s/components';
+import { EvaIconsPack } from '@ui-kitten-s/eva-icons';
 import { AppNavigator } from './navigation.component';
 
 export default () => (

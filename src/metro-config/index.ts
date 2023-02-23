@@ -1,3 +1,4 @@
+import './package.json'; // include package.json in tsc output for publishing
 import Fs from 'fs';
 import LodashMerge from 'lodash.merge';
 import MetroConfig from 'metro-config/src/defaults';
@@ -35,7 +36,7 @@ const customMappingWatchOptions = {
  * @example Usage
  *
  * ```metro.config.js
- * const MetroConfig = require('@ui-kitten/metro-config');
+ * const MetroConfig = require('@ui-kitten-s/metro-config');
  *
  * const evaConfig = {
  *   evaPackage: '@eva-design/eva',              // Required.

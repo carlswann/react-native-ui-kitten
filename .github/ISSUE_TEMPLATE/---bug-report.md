@@ -24,7 +24,7 @@ Steps to reproduce the behavior:
 ## Link to runnable example or repository (highly encouraged)
 
 <!--
-Please provide either a [snack demo](https://snack.expo.io/@ui-kitten/playground) or a minimal repository on GitHub.
+Please provide either a [snack demo](https://snack.expo.io/@ui-kitten-s/playground) or a minimal repository on GitHub.
 This will help us to resolve it faster.
 -->
 
@@ -33,7 +33,7 @@ This will help us to resolve it faster.
 | Package      | Version |
 | ----------- | ----------- |
 | @eva-design/eva      |        |
-| @ui-kitten/components   |         |
+| @ui-kitten-s/components   |         |
 
 ## Environment information
 

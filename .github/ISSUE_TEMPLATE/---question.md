@@ -16,4 +16,4 @@ assignees: ''
 | Package      | Version |
 | ----------- | ----------- |
 | @eva-design/eva      |        |
-| @ui-kitten/components   |         |
+| @ui-kitten-s/components   |         |
